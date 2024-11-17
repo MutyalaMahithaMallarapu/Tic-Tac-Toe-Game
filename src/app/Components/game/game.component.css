@@ -1,0 +1,31 @@
+.game-container {
+    text-align: center;
+  }
+  
+  .board {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #333;
+  }
+  
+  .cell:hover {
+    background-color: #a92222;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  .game-over {
+    font-size: 20px;
+    margin-top: 10px;
+  }
